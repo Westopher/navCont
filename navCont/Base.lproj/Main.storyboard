@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Orange View Controller-->
         <scene sceneID="sI7-7q-4oD">
             <objects>
-                <viewController id="tN2-3e-hy9" sceneMemberID="viewController">
+                <viewController id="tN2-3e-hy9" customClass="OrangeViewController" customModule="navCont" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ObK-Ak-Gu8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -37,10 +37,10 @@
             </objects>
             <point key="canvasLocation" x="2015.2" y="1492.8035982008996"/>
         </scene>
-        <!--View Controller-->
+        <!--Green View Controller-->
         <scene sceneID="GQw-6M-jta">
             <objects>
-                <viewController id="TGA-lA-ONT" sceneMemberID="viewController">
+                <viewController id="TGA-lA-ONT" customClass="GreenViewController" customModule="navCont" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qet-0n-cZY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

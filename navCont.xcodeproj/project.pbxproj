@@ -15,7 +15,7 @@
 		3D6AECC4220371DF0070AA25 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6AECC3220371DF0070AA25 /* RedViewController.swift */; };
 		3D6AECC6220372030070AA25 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6AECC5220372030070AA25 /* YellowViewController.swift */; };
 		3D6AECC82203A1680070AA25 /* OrangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6AECC72203A1680070AA25 /* OrangeViewController.swift */; };
-		3D6AECCA2203A1740070AA25 /* PurpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6AECC92203A1740070AA25 /* PurpleViewController.swift */; };
+		3D6AECCE2203A38E0070AA25 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6AECCD2203A38E0070AA25 /* GreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 		3D6AECC3220371DF0070AA25 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
 		3D6AECC5220372030070AA25 /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
 		3D6AECC72203A1680070AA25 /* OrangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeViewController.swift; sourceTree = "<group>"; };
-		3D6AECC92203A1740070AA25 /* PurpleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurpleViewController.swift; sourceTree = "<group>"; };
+		3D6AECCD2203A38E0070AA25 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,18 +62,34 @@
 		3D6AECB0220352CF0070AA25 /* navCont */ = {
 			isa = PBXGroup;
 			children = (
+				3D6AECCC2203A3500070AA25 /* Tab2VC */,
+				3D6AECCB2203A3210070AA25 /* Tab1VC */,
 				3D6AECB1220352CF0070AA25 /* AppDelegate.swift */,
 				3D6AECB3220352CF0070AA25 /* ViewController.swift */,
 				3D6AECB5220352CF0070AA25 /* Main.storyboard */,
-				3D6AECC72203A1680070AA25 /* OrangeViewController.swift */,
-				3D6AECC92203A1740070AA25 /* PurpleViewController.swift */,
-				3D6AECC5220372030070AA25 /* YellowViewController.swift */,
-				3D6AECC3220371DF0070AA25 /* RedViewController.swift */,
 				3D6AECB8220352D00070AA25 /* Assets.xcassets */,
 				3D6AECBA220352D00070AA25 /* LaunchScreen.storyboard */,
 				3D6AECBD220352D00070AA25 /* Info.plist */,
 			);
 			path = navCont;
+			sourceTree = "<group>";
+		};
+		3D6AECCB2203A3210070AA25 /* Tab1VC */ = {
+			isa = PBXGroup;
+			children = (
+				3D6AECC5220372030070AA25 /* YellowViewController.swift */,
+				3D6AECC3220371DF0070AA25 /* RedViewController.swift */,
+			);
+			path = Tab1VC;
+			sourceTree = "<group>";
+		};
+		3D6AECCC2203A3500070AA25 /* Tab2VC */ = {
+			isa = PBXGroup;
+			children = (
+				3D6AECC72203A1680070AA25 /* OrangeViewController.swift */,
+				3D6AECCD2203A38E0070AA25 /* GreenViewController.swift */,
+			);
+			path = Tab2VC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,9 +163,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D6AECCE2203A38E0070AA25 /* GreenViewController.swift in Sources */,
 				3D6AECC6220372030070AA25 /* YellowViewController.swift in Sources */,
 				3D6AECC82203A1680070AA25 /* OrangeViewController.swift in Sources */,
-				3D6AECCA2203A1740070AA25 /* PurpleViewController.swift in Sources */,
 				3D6AECB4220352CF0070AA25 /* ViewController.swift in Sources */,
 				3D6AECC4220371DF0070AA25 /* RedViewController.swift in Sources */,
 				3D6AECB2220352CF0070AA25 /* AppDelegate.swift in Sources */,
