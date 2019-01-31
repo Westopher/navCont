@@ -24,7 +24,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="Go To Green"/>
                                 <connections>
-                                    <segue destination="TGA-lA-ONT" kind="show" id="aqz-yA-cHo"/>
+                                    <action selector="pushToGreen" destination="tN2-3e-hy9" eventType="touchUpInside" id="zHt-dO-VVD"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -32,6 +32,9 @@
                         <viewLayoutGuide key="safeArea" id="eoc-5h-8SP"/>
                     </view>
                     <navigationItem key="navigationItem" id="WFR-wY-0lE"/>
+                    <connections>
+                        <segue destination="TGA-lA-ONT" kind="show" identifier="orangeToGreen" id="dB7-9u-04b"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="51a-K7-UDd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -60,6 +63,9 @@
                         <color key="backgroundColor" red="0.0" green="0.56284224989999998" blue="0.31881666180000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="ug5-aT-39c"/>
                     </view>
+                    <connections>
+                        <outlet property="greenButton" destination="j3w-pj-QMK" id="T5K-K2-z1H"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="naZ-Hw-AAW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

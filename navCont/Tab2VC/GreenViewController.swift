@@ -10,6 +10,10 @@ import UIKit
 
 class GreenViewController: UIViewController {
 
+    var buttonTitle = ""
+    
+    @IBOutlet weak var greenButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
