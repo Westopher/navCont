@@ -17,7 +17,23 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="siZ-UN-Ntb">
+                                <rect key="frame" x="31.5" y="302" width="312" height="63"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                                <state key="normal" title="Go to next screen"/>
+                                <connections>
+                                    <segue destination="RjL-nm-Mmo" kind="show" id="m0Y-VO-KNd"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="siZ-UN-Ntb" secondAttribute="trailing" constant="31.5" id="0N7-NN-sHb"/>
+                            <constraint firstItem="siZ-UN-Ntb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6LS-r7-DXE"/>
+                            <constraint firstItem="siZ-UN-Ntb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="31.5" id="6sh-T8-cS7"/>
+                            <constraint firstItem="siZ-UN-Ntb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="JyE-dC-6tP"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="qYJ-5v-64H"/>
@@ -25,6 +41,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1076" y="132.68365817091455"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tF9-FU-RAA">
+            <objects>
+                <viewController id="RjL-nm-Mmo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5H3-7e-zc7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="aCu-f2-S5u"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DZV-DM-M0U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1897" y="133"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="4Ko-yY-MMl">
