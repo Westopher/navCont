@@ -12,6 +12,8 @@
 		3D6AECB7220352CF0070AA25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D6AECB5220352CF0070AA25 /* Main.storyboard */; };
 		3D6AECB9220352D00070AA25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D6AECB8220352D00070AA25 /* Assets.xcassets */; };
 		3D6AECBC220352D00070AA25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D6AECBA220352D00070AA25 /* LaunchScreen.storyboard */; };
+		3D6AECC4220371DF0070AA25 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6AECC3220371DF0070AA25 /* RedViewController.swift */; };
+		3D6AECC6220372030070AA25 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6AECC5220372030070AA25 /* YellowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3D6AECB8220352D00070AA25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D6AECBB220352D00070AA25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D6AECBD220352D00070AA25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D6AECC3220371DF0070AA25 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		3D6AECC5220372030070AA25 /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				3D6AECB1220352CF0070AA25 /* AppDelegate.swift */,
 				3D6AECB3220352CF0070AA25 /* ViewController.swift */,
 				3D6AECB5220352CF0070AA25 /* Main.storyboard */,
+				3D6AECC5220372030070AA25 /* YellowViewController.swift */,
+				3D6AECC3220371DF0070AA25 /* RedViewController.swift */,
 				3D6AECB8220352D00070AA25 /* Assets.xcassets */,
 				3D6AECBA220352D00070AA25 /* LaunchScreen.storyboard */,
 				3D6AECBD220352D00070AA25 /* Info.plist */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D6AECC6220372030070AA25 /* YellowViewController.swift in Sources */,
 				3D6AECB4220352CF0070AA25 /* ViewController.swift in Sources */,
+				3D6AECC4220371DF0070AA25 /* RedViewController.swift in Sources */,
 				3D6AECB2220352CF0070AA25 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
