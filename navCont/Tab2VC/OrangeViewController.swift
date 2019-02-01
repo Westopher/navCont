@@ -15,6 +15,7 @@ class OrangeViewController: UIViewController {
 
     }
     
+    //what happens when the button is pressed
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if
             let identifier = segue.identifier,
@@ -26,7 +27,7 @@ class OrangeViewController: UIViewController {
         }
     }
     
-
+    //the button itself
     @IBAction func pushToGreen() {
         performSegue(withIdentifier: "orangeToGreen", sender: nil)
     }
